@@ -1,0 +1,74 @@
+.CurrentWeather{
+    width: 60%;
+    height: 90vh;
+    padding: 5rem;
+    display: flex;
+    flex-flow: column;
+}
+.CurrentWeather .TempSect{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+.TempSect .TempSect-TempToday{
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.CurrentTemp{
+    font-size: 13rem;
+}
+.TempSect-TempToday .MinMax{
+    width: 42rem;
+    margin-top: 2rem;
+    font-size: 6.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.Min{
+    color: #2AA9E6;
+}
+.Max{
+    color: #DA9507;
+}
+.TempIconSec{
+    width: 25%;
+    margin-right: 2rem;
+    padding: 6rem 0 1rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.TempIcon{
+    width: 80%;
+}
+.WeatherTitle{
+    font-size: 6rem;
+}
+
+.ParamsSect{
+    margin-top: 5rem;
+}
+.ParamsSect-List{
+    font-size: 2.6rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.cls-1{
+    fill:#fff;
+}
+.cls-2{
+    fill:#2aa9e6;
+}
+.cls-3{
+    fill:#da9507;
+}
